@@ -17,9 +17,9 @@ int[] result = Rs(input);
 
 for (int i = 0; i < result.Length; i++)
 {
-    //if (result[i] ≠ 0)
+    if (result[i] != 0)
     {
         //1 - 8 шт
         Console.WriteLine($"{i} - {result[i]} шт");
-}
+    }
 }
